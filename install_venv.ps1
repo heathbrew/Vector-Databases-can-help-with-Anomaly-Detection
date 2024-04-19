@@ -40,6 +40,7 @@ pip install bs4
 pip install lxml
 pip install sentence-transformers
 pip install pinecone-client
+pip install seaborn
 
 
 
