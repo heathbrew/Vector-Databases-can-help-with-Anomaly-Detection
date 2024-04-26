@@ -7,7 +7,7 @@ from langchain_core.prompts import PromptTemplate
 
 # model_url = "https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF/resolve/main/llama-2-13b-chat.Q4_0.gguf"
 # model_url = "https://huggingface.co/TheBloke/Llama-2-7B-chat-GGUF/resolve/main/llama-2-7b-chat.Q4_0.gguf"
-path = "./models/Llama2/llama-2-7b-chat.Q4_0.gguf"
+path = "./models/Llama3/Meta-Llama-3-8B-Instruct.Q4_K_M.gguf"
 
 template = """Question: {question}
 
@@ -24,7 +24,7 @@ llm = LlamaCpp(
     # optionally, you can set the path to a pre-downloaded model instead of model_url
     # model_path=None,
     model_path=path,
-    temperature=1,
+    temperature=0.1,
     max_new_tokens=4096,
     # llama2 has a context window of 4096 tokens, but we set it lower to allow for some wiggle room
     context_window=3900,

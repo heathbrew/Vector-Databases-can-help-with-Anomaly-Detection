@@ -168,5 +168,9 @@ Dataset/train-00000-of-00001-a77e2814210655f1.parquet
 fast_MiniLM-L6-v2/
 MiniLM-L6-v2/
 llama-2-7b-chat.Q4_0.gguf
-Dataset\News_Category_Dataset_v3.json
-Dataset\encoded_news_data.csv
+Dataset/News_Category_Dataset_v3.json
+Dataset/encoded_news_data.csv
+models/Llama2/llama-2-7b-chat.Q4_0.gguf
+models/Llama3/Meta-Llama-3-8B-Instruct.Q4_K_M.gguf
+Qdrant/
+
